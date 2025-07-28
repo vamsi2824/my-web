@@ -13,7 +13,6 @@ function App() {
       <main>
         <Home />
         <AssistantWrapper></AssistantWrapper>
-
         <ProfileSection />
         <SlillsSection />
         <EduExpSection />
