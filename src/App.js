@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import ProfileSection from "./components/ProfileSection";
+import EduExpSection from "./components/EduExpSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
+import SlillsSection from "./components/SkillsSection";
+import AssistantWrapper from "./components/AssistantWrapper";
+import Home from "./components/Home"; // ...other imports
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-[#12041b] flex flex-col">
+      <main>
+        <AssistantWrapper></AssistantWrapper>
+        <Home />
+
+        <ProfileSection />
+        <SlillsSection />
+        <EduExpSection />
+        <ProjectsSection />
+        <ContactSection />
+        {/* Add other components like Contact, Footer, etc. */}
+      </main>
     </div>
   );
 }
