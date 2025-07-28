@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import ProfileSection from "./components/ProfileSection";
 import EduExpSection from "./components/EduExpSection";
 import ProjectsSection from "./components/ProjectsSection";
@@ -12,15 +11,14 @@ function App() {
   return (
     <div className="min-h-screen bg-[#12041b] flex flex-col">
       <main>
-        <AssistantWrapper></AssistantWrapper>
         <Home />
+        <AssistantWrapper></AssistantWrapper>
 
         <ProfileSection />
         <SlillsSection />
         <EduExpSection />
         <ProjectsSection />
         <ContactSection />
-        {/* Add other components like Contact, Footer, etc. */}
       </main>
     </div>
   );
