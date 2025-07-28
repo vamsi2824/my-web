@@ -1,0 +1,3 @@
+curl -X POST http://localhost:3001/api/assistant \
+  -H "Content-Type: application/json" \
+  -d '{"contents":[{"role":"user","parts":[{"text":"Hello, who are you?"}]}]}'
