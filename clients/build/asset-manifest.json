@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c56df933.css",
+    "main.js": "/static/js/main.b13658a8.js",
+    "static/js/453.a3c1d153.chunk.js": "/static/js/453.a3c1d153.chunk.js",
+    "static/media/fraud.png": "/static/media/fraud.629034912f8422693f01.png",
+    "static/media/my.png": "/static/media/my.eb9ca23b474c21f53e9d.png",
+    "static/media/portfolio.png": "/static/media/portfolio.56f9925d0754cdf32797.png",
+    "static/media/recipe.png": "/static/media/recipe.f37ebd60ff2a5005f5f5.png",
+    "static/media/medguardian.png": "/static/media/medguardian.ce8c7173d71cb5ce5f54.png",
+    "static/media/career.png": "/static/media/career.3bbca2b3110ca43e6f14.png",
+    "index.html": "/index.html",
+    "main.c56df933.css.map": "/static/css/main.c56df933.css.map",
+    "main.b13658a8.js.map": "/static/js/main.b13658a8.js.map",
+    "453.a3c1d153.chunk.js.map": "/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c56df933.css",
+    "static/js/main.b13658a8.js"
+  ]
+}
